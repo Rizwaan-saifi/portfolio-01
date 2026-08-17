@@ -1,0 +1,8 @@
+key={card.id}
+            className={`absolute ${index === 0 ? "top-card" : ""}`}           
+            style={{
+              top: "50%",
+              left: "50%",
+              transform: `translate(-50%, -50%) translate(${index * 12}px, ${-index * 12}px)`,
+              zIndex: cards.length - index
+            }}
