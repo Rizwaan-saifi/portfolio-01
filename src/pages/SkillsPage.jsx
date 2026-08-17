@@ -50,7 +50,7 @@ const Card_Data = [
 
   },
 ]
-
+// kbsfiehfiei
 
 const SkillsPage = () => {
   const [cards, setCards] = useState(Card_Data);
